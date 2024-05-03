@@ -1,0 +1,308 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main_body{
+    width: 100%;
+    height: auto;
+    /* background-color: aquamarine; */
+}
+.top{
+    width: 100%;
+    height: 2%;
+    background-color:rgba(128, 128, 128, 0.6);
+    text-align: center;
+}
+.nav{
+    width: 100%;
+    height: 100px;
+    background-color:rgba(128, 128, 128, 0.479);
+    position: sticky;
+    top: 0;
+    
+}
+.first_nav{
+    width: 100%;
+    height: 50px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    width: 20%;
+    height: 2rem;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    width: 40%;
+    height: 2rem;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.location{
+    width: 15%;
+    height: 2rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: large;
+    border: 1px solid black;
+}
+.badge{
+    width: 20%;
+    height: 2rem;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+#like:hover{
+    scale: 1.3;
+}
+#user:hover{
+    scale: 1.3;
+}
+#cart:hover{
+    scale: 1.3;
+}
+.search input{
+    width: 85%;
+    height: 1.5rem;
+    
+    border-radius: 50px;
+    
+    padding-left: 10px;
+
+}
+.badge sup{
+    color: white;
+    border-radius:1px;
+    background-color: green;
+}
+
+/* css for second nav */
+
+.second_nav{
+    width: 100%;
+    height: 50px;
+    /* background-color: orange; */
+    
+    
+}
+.second_nav ul {
+    width: 100%;
+    height: 100%;
+    display: flex;   
+    justify-content: space-evenly;
+    /* align-items: center; */
+  
+}
+.second_nav ul li{
+    list-style: none;
+    /* display: flex;
+    justify-content:start;
+    align-items: center; */
+}
+.second_nav ul li a{
+    text-decoration: none;
+    padding-left: 10px;
+    color:black;
+    opacity: 0.8;
+}
+.second_nav ul li a:hover{
+    opacity: 2;
+    font-size: large;
+}
+#dep{
+    /* color:; */
+    /* background-color: green; */
+}
+
+/* css for main  */
+
+.main{
+    width: 100%;
+    height: auto;
+    background-color:white;
+    display: flex;
+    margin-top: 15px;
+}
+.left_main{
+    width: 60%;
+    height: 250px;
+    /* background-color: red; */
+    padding-left: 20px;
+}
+.bro{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    right: 20px;
+    bottom: 5px;
+    background: url("./broccoli-1238250_1280.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.left_main span{
+    background-color: orange;
+}
+.left_main h1{
+    line-height: 10px;
+    font-weight: 800;
+}
+.left_main button{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.left_main button:hover{
+    scale: 1.1;
+}
+.right_main{
+    width: 40%;
+    height: 300px;
+    /* background-color: greenyellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 50%; */
+}
+.img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    background-color: rgb(231, 140, 21);
+    background: url("./241-2413831_girl-buying-vegetables-and-fruits-hd-png-download.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.category{
+    width: 100%;
+    height: auto;
+    display: flex;
+    /* flex-direction: column; */
+}
+.heading{
+    width: 100%;
+    height: 40px;
+    /* background-color: red; */
+    line-height: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.forward{
+    width:10% ;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+
+}
+.forward a{
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+}
+.box{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+
+    /* background-color:orange; */
+}
+.card{
+    width: 15%;
+    height: 9rem;
+    /* background-color: red; */
+    border: 1px solid rgba(128, 128, 128, 0.503);
+    /* display: flex; */
+    border-radius: 5px;
+    
+    
+}
+.card:hover{
+    box-shadow: 0px 0px 5px black;
+}
+.dairy{
+    height: 80%;
+    width: 100%;
+    background-color: green;
+    background: url("./dairy.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.bread{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.snack{
+    height: 80%;
+    width: 100%;
+    background-color: green;
+    background: url("./snacks.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.biscuits{
+    height: 80%;
+    width: 100%;
+    background-color: green;
+    background: url("./biscuit.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.food{
+    height: 80%;
+    width: 100%;
+    background-color: green;
+    background: url("./instantfood.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.drink{
+    height: 80%;
+    width: 100%;
+    background-color: green;
+    background: url("./softdrinks.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.atta{
+    height: 80%;
+    width: 100%;
+    background-color: green;
+    background: url("./atta.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
